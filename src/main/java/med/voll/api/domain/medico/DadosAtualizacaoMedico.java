@@ -4,10 +4,9 @@ import jakarta.validation.constraints.NotNull;
 import med.voll.api.domain.endereco.DadosEndereco;
 
 public record DadosAtualizacaoMedico(
-@NotNull
+        @NotNull
         Long id,
         String nome,
         String telefone,
-        DadosEndereco endereco
-) {
+        DadosEndereco endereco) {
 }
